@@ -15,7 +15,7 @@ async function foodDetail({ params }) {
   const data = await getFoodDetail(params.id);
   const detail = data?.meals[0];
   return (
-    <div className=" py-10 ">
+    <div className=" py-10 min-h-screen">
       <div className="container mx-auto">
         <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
           <div className="">
